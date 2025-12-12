@@ -574,3 +574,8 @@ function MobileMenuSection({ title, categories }: {
     </div>
   );
 }
+
+// Default export
+export default function Navigation() {
+  return <TopNavbar />;
+}
